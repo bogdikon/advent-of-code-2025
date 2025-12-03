@@ -25,7 +25,7 @@ class Id(object):
         # doubled pattern means they are always even?
         if is_even(len(self.value)): # checking if its even
             # trying to find a pattern
-            # if its doubled then left part equals to left part??
+            # if its doubled then left part equals to right part??
             left_part = self.value[:int(len(self.value)/2)]
             right_part = self.value[int(len(self.value)/2):]
             if left_part == right_part:
