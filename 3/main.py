@@ -7,10 +7,7 @@ ranges_list = ids_content.split(',')
 ranges_list[-1] = ranges_list[-1][:-1] # removing \n in the end of the last id range
 
 def is_even(num: int):
-    if num%2==0:
-        return True
-    else:
-        return False
+    return num%2==0
 
 class Id(object):
     def __init__(self, value):
